@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "figma": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-figma"],
+      "env": {
+        "FIGMA_API_KEY": "${FIGMA_API_KEY}"
+      }
+    }
+  },
+  "endpoints": {
+    "figma": "http://127.0.0.1:3845/mcp"
+  }
+}
