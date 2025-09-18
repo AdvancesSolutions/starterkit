@@ -153,3 +153,6 @@ jspm_packages/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Windows system folders (should not be in project)
+%ProgramData%/
